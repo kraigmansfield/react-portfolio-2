@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import "./app.css";
+import React, { useState} from "react";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 
 function App() {
+  const [currentTab, setCurrentTab] = useState("about");
+
+  const renderTab = () => {
+    switch (currentTab) {
+      case "about":
+        return <About/>;
+      case "portfolio":
+        return <Portfolio/>;
+      case "contact":
+        return <Contact/>;
+      default: 
+        return null;
+
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="header">
+        <Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
+      </div>
+      <div>
+        <main>{renderTab()}</main>
+      </div>
+      <div>
+        <Footer></Footer>
+      </div>
     </div>
-  );
+  )
 }
 
 export default App;
+
