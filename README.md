@@ -1,4 +1,17 @@
-# Getting Started with Create React App
+# Project Title 
+React Portfolio
+
+##Description
+This is a portfolio showcasing some of my previous works. This uses ReactJS.
+
+
+
+
+
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
