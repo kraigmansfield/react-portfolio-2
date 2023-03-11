@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-2/static/css/main.a945424c.css",
+    "main.js": "/react-portfolio-2/static/js/main.7ea6620e.js",
+    "static/media/Kraig-550.jpg": "/react-portfolio-2/static/media/Kraig-550.744b10b560d15f421d82.jpg",
+    "static/media/project_zoom_background.jpg": "/react-portfolio-2/static/media/project_zoom_background.9748246ff49b8c3e9daa.jpg",
+    "static/media/steam-sales-tracker.png": "/react-portfolio-2/static/media/steam-sales-tracker.9eff3c2bf5e9940b3309.png",
+    "index.html": "/react-portfolio-2/index.html",
+    "main.a945424c.css.map": "/react-portfolio-2/static/css/main.a945424c.css.map",
+    "main.7ea6620e.js.map": "/react-portfolio-2/static/js/main.7ea6620e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a945424c.css",
+    "static/js/main.7ea6620e.js"
+  ]
+}
