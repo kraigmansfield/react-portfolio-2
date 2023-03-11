@@ -1,7 +1,7 @@
 # Project Title 
 React Portfolio
 
-##Description
+## Description
 This is a portfolio showcasing some of my previous works. This uses ReactJS.
 
 
