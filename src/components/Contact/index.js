@@ -5,7 +5,7 @@ function Contact() {
     name: '',
     email: '',
     message: '',
-  })
+  });
 
   const { name, email, message } = formState
 
